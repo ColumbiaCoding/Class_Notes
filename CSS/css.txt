@@ -1,0 +1,39 @@
+Class notes 30 March 2023
+Review
+- image is self closing
+- Strong 
+- Getting into CSS today
+- List
+- A tags are links to external sites. <A Ref>
+
+CSS
+Atrributes
+Class container
+*you need to add a break after the image*
+IDs
+The class and the IDs are doing different jobs
+Color
+*You don't ever want to the absolute path, so if it starts with a C, then you know it's the wrong path*
+
+id get preferences over elements
+the universal selector to apply a font family to everything
+
+element selector
+
+Id selectors with the .
+
+figure tag -
+
+at the top, 
+multiple selectors, element selectors, class and ID
+
+display 
+block elements take up the entire line
+inline elements, are just for in
+you could hidden the display element
+
+what is the box model. content then padding. the box whish is the box.
+margin is the space 
+Top-right-bottom-left
+
+relative box

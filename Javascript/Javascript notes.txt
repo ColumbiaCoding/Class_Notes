@@ -1,0 +1,29 @@
+JS - conditional if you want a boolean
+true or a else
+
+methods - 3,4,5,6
+
+functions are creating the app
+
+putting methods into functions. 
+a function is a pretty wrapper.
+when your done with the 
+
+
+reads top to bottom
+any variables will start at top, hoisting.
+declare function
+
+local variable 
+
+
+method
+line 61 - listener: startbtn.addEventlistern("Click", startQuiz)
+
+the flow of the app
+
+testinfo.textcontent = "see This! "  + array
+
+if (isArray) 
+alert(;this boolean works')
+
