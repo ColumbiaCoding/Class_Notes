@@ -1,0 +1,80 @@
+Step 1: Configuration variables
+git config --global user.name "Gabriel Regus"
+git config --global user.email "gabriel.regus@gmail.com"
+
+Step 2: Initialize Git
+git init
+(you could see the files by typing ls-la)
+Step 3: Staging Files
+git add filename
+#git add --all
+#git add -A
+#git add .
+
+Step 4: Committing changes to staging area
+git commit -m "First Commit"
+
+Step 5: Git log
+
+Three places to work enviroments:
+Working: 
+Staging (add command): dating before marriage
+Commit: 
+
+Tracked files 
+Unmodified -  the file hasn't changed since the last commit
+Modified - the file has changed since the last commit
+Stage - files moved into the staging 
+
+git restore - will restore the changes
+
+6. Create a copy of a branch
+git switch -c 'name of new branch'
+merge the changes from one branch to another branch
+
+7. Delete branch (it's good practice to delete the branch once you've finished with it)
+
+Gitflow
+a. Feature/fix branch
+b. Make changes
+c. Merge to master
+d. Delete old branch
+
+
+pushing from your local machine to github
+# git push  --upstream-to origin main
+git push -u origin main # --set-upstream
+# git push --all
+# git branch --set-upstream-to <origin/remote-branch>
+
+
+git@github.com:ColumbiaCoding/Bootcamp.git
+
+##Syncing github with local hard drive
+
+Clone
+(Gitlab) git clone git@git.bootcampcontent.com:Columbia-University/CU-VIRT-FSF-PT-03-2023-U-LOLC.git
+
+Fetch - take from the repo and sync to your local drive
+
+Pull is a combination 
+
+#Search for branches
+git branch
+git branch -a
+
+git pull
+git init
+cd <folder-name> command and run git pull origin main.
+git branch --set-upstream-to=origin/master main
+
+to remove a git repo use this code
+rm -rf .git 
+
+For Git to know where we want files to go when we do a git push of items in our local repository, we need to add a reference to that respository. Enter the following command in the console window
+
+git remote add origin git@github.com:ColumbiaCoding/03-JavaScript.git
+
+
+Clone a repo to get the files onto local machine. break connection with old repo. establish new connect with new repo.
+where ever you have starter code, you don't want to add read.me You could 
