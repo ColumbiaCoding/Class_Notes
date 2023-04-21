@@ -1,0 +1,22 @@
+questions
+answers
+next question
+
+hacker rank
+harry potter quiz
+ no sta
+
+when the qrong answer, the time gets 15 seconds 
+
+Yep, sounds like NYC cr
+
+Audio feedback
+
+Nice background color,
+square section
+
+answer is right, tell the user
+answer is wrong, tell the user
+move onto the next 
+
+making use of objects

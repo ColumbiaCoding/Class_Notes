@@ -27,3 +27,15 @@ testinfo.textcontent = "see This! "  + array
 if (isArray) 
 alert(;this boolean works')
 
+As a user, I want to play rock paper scissors against an automated opponent
+
+variable to store valid choices
+array
+variable to store the users choices
+variable to store the computer choices
+variable to store the number of wins
+variable to store the number of lesses
+
+
+
+As a user, I can R, P, or S S

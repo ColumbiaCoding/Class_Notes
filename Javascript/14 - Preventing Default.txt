@@ -1,0 +1,12 @@
+Preventing Default - want html wants to do by default. HTML wants to reload the page, and it's trying to send you a results page.
+
+elements by IDs
+
+preventDefault method - 
+
+console logging e - it's calling it a point or event
+(we'll see 
+
+e.pre
+submitEl.addEventListner('click', show response);
+formEl.addEventListner('submit', show response);

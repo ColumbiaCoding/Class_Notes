@@ -1,0 +1,19 @@
+logs body 
+
+traversing the DOM. 
+
+queryselector all
+queryselector when it has any selector, it pick up the first one that matches it. 
+
+setAttribute - what atrribute are we setting. 
+The setAttribute() method sets a new value to an attribute.
+element.setAttribute(name, value)
+element.style.backgroundColor = "red";
+
+<script>
+function myFunction() {
+  document.getElementById("myInput").setAttribute("type", "button"); 
+}
+</script>
+
+
