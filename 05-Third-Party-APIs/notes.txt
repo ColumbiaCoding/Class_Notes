@@ -1,0 +1,5 @@
+jQuery is a JavaScript framework designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of Aug 2022, jQuery is used by 77% of the 10 million most popular website
+
+- You have to script tags first, the JS tag afterwards
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" </script>

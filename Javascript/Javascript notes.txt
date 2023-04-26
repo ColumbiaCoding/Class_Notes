@@ -39,3 +39,6 @@ variable to store the number of lesses
 
 
 As a user, I can R, P, or S S
+
+Student project - Set time
+set

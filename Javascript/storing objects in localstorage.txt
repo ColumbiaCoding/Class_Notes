@@ -1,0 +1,6 @@
+What is localStorage?
+LocalStorage is a web storage mechanism that allows us to store data on the client’s browser that persists even after the browser window is closed. Data stored here can be accessed throughout a particular domain. For instance, data stored in the localStorage object from www.example.com can be accessed by any page on this domain.
+
+And, according to w3schools, “the localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed and will be available the next day, week, or year.”
+
+The JSON.stringify() static method converts a JavaScript value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.
