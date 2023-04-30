@@ -1,0 +1,20 @@
+Write a function that takes in an array of numbers and, for each number in the array, returns "Fizz" if the number is divisible by 3, returns "Buzz" if the number is divisible by 5, returns "Fizz Buzz" if the number is divisible by both 3 and 5, and otherwise returns the number.
+
+Bonus: Write a function that takes in an integer and does the above for every number from 1 to the number.
+
+const fizzBuzz = function(arr) {
+for(let i = 0; i<arr.length; i++){
+    if((arr[i] % 3 === 0) && (arr[i] % 5 === 0)){
+        console.log('Fizz Buzz');
+       
+    } else if (arr[i] % 3 === 0){
+        console.log('Fizz');
+    
+    } else if (arr[i] % 5 === 0){
+        console.log('Buzz');
+       
+    }else{
+    console.log( arr[i])}
+}
+return;
+}
