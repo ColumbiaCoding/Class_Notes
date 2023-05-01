@@ -1,0 +1,8 @@
+ - Get data through command line Curl
+ - fetch you will use javascript function
+ - every API isbuilt differently
+get to this server. now we have to read the data. code has to function chaining. 
+
+run fetch first
+.then we will run the function. call back function. give you access to any data the function returns.
+rspon
