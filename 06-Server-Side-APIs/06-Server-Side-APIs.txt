@@ -1,4 +1,6 @@
  - Get data through command line Curl
+    - Thunder client
+    - 
  - fetch you will use javascript function
  - every API isbuilt differently
 get to this server. now we have to read the data. code has to function chaining. 
@@ -6,3 +8,24 @@ get to this server. now we have to read the data. code has to function chaining.
 run fetch first
 .then we will run the function. call back function. give you access to any data the function returns.
 rspon
+
+Node is to bring the data out of the brower
+express is the front end and back to talk to one another
+
+challenge this week to create a 
+
+http cat
+response 
+
+- server-side API fetch is built into vanilla javascript
+- When we access the json method, use the 
+
+parsing the data into javascript in order 
+
+.then
+.then (function data)
+fetch
+.then
+
+5 day forecast
+pricing --> Free --> Get Api Key --> 
