@@ -1,0 +1,26 @@
+curl -XPOST -H "Content-type: application/json" -d '{
+    "query": {
+        "query_string": {
+            "query": "cik:320193 AND filedAt:{2016-01-01 TO 2016-12-31} AND formType:\"10-Q\""
+        }
+    },
+    "from": "0",
+    "size": "10",
+    "sort": [{ "filedAt": { "order": "desc" } }]
+}' 'https://api.sec-api.io?token=c1484b557f33e9b69965330859cc4392e4c419f138b4cdf500e4d7155e8bd39b'
+
+https://api.sec-api.io/extractor?
+url=https://www.sec.gov/Archives/edgar/data/789019/000156459022015675/msft-10q_20220331.htm&
+item=part2item1a&
+type=html&
+token=c1484b557f33e9b69965330859cc4392e4c419f138b4cdf500e4d7155e8bd39b
+
+
+https://api.sec-api.io/compensation/TSLA?token=c1484b557f33e9b69965330859cc4392e4c419f138b4cdf500e4d7155e8bd39b
+
+
+c66c5dad-395c-4ec6-afdf-7b78eb94166a
+
+<script src="https://gist.github.com/janlukasschroeder/c0446928a011589d301e5cbd90cd981a.js"></script>
+
+https://api.sec-api.io/full-text-search?token=c1484b557f33e9b69965330859cc4392e4c419f138b4cdf500e4d7155e8bd39b

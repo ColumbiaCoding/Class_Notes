@@ -46,7 +46,7 @@ pushing from your local machine to github
 git push -u origin main # --set-upstream
 # git push --all
 # git branch --set-upstream-to <origin/remote-branch>
-
+touch
 
 git@github.com:ColumbiaCoding/Bootcamp.git
 
@@ -78,3 +78,23 @@ git remote add origin git@github.com:ColumbiaCoding/03-JavaScript.git
 
 Clone a repo to get the files onto local machine. break connection with old repo. establish new connect with new repo.
 where ever you have starter code, you don't want to add read.me You could 
+
+How To Work With Multiple Github Accounts on a single Machine
+https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
+
+branching
+ - you have a production branch and a dev branch
+ - protect main branch. Settings->Branches->have to name main-> require pull request->do not apply bypassing the above settings-> create->
+ - protected branch hook declined
+ - git checkout -b "feature/file-structure"
+ - git push origin feature/file-structure
+ - collaborators. Add by git hub user name.
+
+ git checkout main (to change branch)
+
+
+ git pull main
+ git checkout
+ git merge main
+
+ git revert
